@@ -24,5 +24,8 @@ class Settings(JsonStringModel):
     """
 
     clients: list[Client] = []
-    decryption: str = ""
+    ivCheck: bool = False
+    method: str = ""
+    network: str = ""
+    password: str = ""
     fallbacks: list = []

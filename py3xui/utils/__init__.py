@@ -2,4 +2,4 @@
 from py3xui.utils import env
 from py3xui.utils.logger import Logger
 
-COOKIE_NAMES = ["3x-ui", "session"]
+COOKIE_NAMES = ["3x-ui", "session", "x-ui"]
